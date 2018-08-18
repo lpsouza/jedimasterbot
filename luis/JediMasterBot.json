@@ -1,0 +1,534 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "1.0",
+  "name": "JediMasterBot",
+  "desc": "IA para conversação do bot de teste com tema Star Wars",
+  "culture": "pt-br",
+  "intents": [
+    {
+      "name": "BuscaPersonagem"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Saudacao"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "Personagem",
+      "subLists": [
+        {
+          "canonicalForm": "Luke Skywalker",
+          "list": [
+            "Luke"
+          ]
+        },
+        {
+          "canonicalForm": "C-3PO",
+          "list": [
+            "C3PO",
+            "C3 PO",
+            "C3-PO"
+          ]
+        },
+        {
+          "canonicalForm": "R2-D2",
+          "list": [
+            "R2D2",
+            "R2 D2"
+          ]
+        },
+        {
+          "canonicalForm": "Darth Vader",
+          "list": []
+        },
+        {
+          "canonicalForm": "Leia Organa",
+          "list": [
+            "leia"
+          ]
+        },
+        {
+          "canonicalForm": "Owen Lars",
+          "list": []
+        },
+        {
+          "canonicalForm": "Beru Whitesun lars",
+          "list": []
+        },
+        {
+          "canonicalForm": "R5-D4",
+          "list": [
+            "R5D4",
+            "R5 D4"
+          ]
+        },
+        {
+          "canonicalForm": "Biggs Darklighter",
+          "list": [
+            "Biggs"
+          ]
+        },
+        {
+          "canonicalForm": "Obi-Wan Kenobi",
+          "list": [
+            "Ben",
+            "Obi Wan",
+            "Obi-Wan",
+            "Kenobi"
+          ]
+        },
+        {
+          "canonicalForm": "Anakin Skywalker",
+          "list": [
+            "Anakin",
+            "Anaki",
+            "Anakim"
+          ]
+        },
+        {
+          "canonicalForm": "Wilhuff Tarkin",
+          "list": []
+        },
+        {
+          "canonicalForm": "Chewbacca",
+          "list": [
+            "xubaca",
+            "xubaca"
+          ]
+        },
+        {
+          "canonicalForm": "Han Solo",
+          "list": [
+            "Solo"
+          ]
+        },
+        {
+          "canonicalForm": "Greedo",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jabba Desilijic Tiure",
+          "list": [
+            "Jabba"
+          ]
+        },
+        {
+          "canonicalForm": "Wedge Antilles",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jek Tono Porkins",
+          "list": []
+        },
+        {
+          "canonicalForm": "Yoda",
+          "list": [
+            "Master Yoda",
+            "Mestre Yoda"
+          ]
+        },
+        {
+          "canonicalForm": "Palpatine",
+          "list": []
+        },
+        {
+          "canonicalForm": "Boba Fett",
+          "list": [
+            "Bubba Fett",
+            "Buba Fett",
+            "Buba Fet",
+            "Booba Fett",
+            "Buba Feet"
+          ]
+        },
+        {
+          "canonicalForm": "IG-88",
+          "list": [
+            "IG88"
+          ]
+        },
+        {
+          "canonicalForm": "Bossk",
+          "list": []
+        },
+        {
+          "canonicalForm": "Lando Calrissian",
+          "list": []
+        },
+        {
+          "canonicalForm": "Lobot",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ackbar",
+          "list": []
+        },
+        {
+          "canonicalForm": "Mon Mothma",
+          "list": []
+        },
+        {
+          "canonicalForm": "Arvel Crynyd",
+          "list": []
+        },
+        {
+          "canonicalForm": "Wicket Systri Warrick",
+          "list": []
+        },
+        {
+          "canonicalForm": "Nien Nunb",
+          "list": []
+        },
+        {
+          "canonicalForm": "Qui-Gon Jinn",
+          "list": [
+            "Gui Gon",
+            "Quigon"
+          ]
+        },
+        {
+          "canonicalForm": "Nute Gunray",
+          "list": []
+        },
+        {
+          "canonicalForm": "Finis Valorum",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jar Jar Binks",
+          "list": [
+            "Jar Jar",
+            "Jar-Jar",
+            "JarJar"
+          ]
+        },
+        {
+          "canonicalForm": "Roos Tarpals",
+          "list": []
+        },
+        {
+          "canonicalForm": "Rugor Nass",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ric Olié",
+          "list": []
+        },
+        {
+          "canonicalForm": "Watto",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sebulba",
+          "list": []
+        },
+        {
+          "canonicalForm": "Quarsh Panaka",
+          "list": []
+        },
+        {
+          "canonicalForm": "Shmi Skywalker",
+          "list": []
+        },
+        {
+          "canonicalForm": "Darth Maul",
+          "list": []
+        },
+        {
+          "canonicalForm": "Bib Fortuna",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ayla Secura",
+          "list": []
+        },
+        {
+          "canonicalForm": "Dud Bolt",
+          "list": []
+        },
+        {
+          "canonicalForm": "Gasgano",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ben Quadinaros",
+          "list": []
+        },
+        {
+          "canonicalForm": "Mace Windu",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ki-Adi-Mundi",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kit Fisto",
+          "list": []
+        },
+        {
+          "canonicalForm": "Eeth Koth",
+          "list": []
+        },
+        {
+          "canonicalForm": "Adi Gallia",
+          "list": []
+        },
+        {
+          "canonicalForm": "Saesee Tiin",
+          "list": []
+        },
+        {
+          "canonicalForm": "Yarael Poof",
+          "list": []
+        },
+        {
+          "canonicalForm": "Plo Koon",
+          "list": []
+        },
+        {
+          "canonicalForm": "Mas Amedda",
+          "list": []
+        },
+        {
+          "canonicalForm": "Gregar Typho",
+          "list": []
+        },
+        {
+          "canonicalForm": "Cordé",
+          "list": []
+        },
+        {
+          "canonicalForm": "Cliegg Lars",
+          "list": []
+        },
+        {
+          "canonicalForm": "Poggle the Lesser",
+          "list": []
+        },
+        {
+          "canonicalForm": "Luminara Unduli",
+          "list": []
+        },
+        {
+          "canonicalForm": "Barriss Offee",
+          "list": []
+        },
+        {
+          "canonicalForm": "Dormé",
+          "list": []
+        },
+        {
+          "canonicalForm": "Dooku",
+          "list": []
+        },
+        {
+          "canonicalForm": "Bail Prestor Organa",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jango Fett",
+          "list": []
+        },
+        {
+          "canonicalForm": "Zam Wesell",
+          "list": []
+        },
+        {
+          "canonicalForm": "Dexter Jettster",
+          "list": []
+        },
+        {
+          "canonicalForm": "Lama Su",
+          "list": []
+        },
+        {
+          "canonicalForm": "Taun We",
+          "list": []
+        },
+        {
+          "canonicalForm": "Jocasta Nu",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ratts Tyerell",
+          "list": []
+        },
+        {
+          "canonicalForm": "R4-P17",
+          "list": [
+            "R4P17",
+            "R4 P17"
+          ]
+        },
+        {
+          "canonicalForm": "Wat Tambor",
+          "list": []
+        },
+        {
+          "canonicalForm": "San Hill",
+          "list": []
+        },
+        {
+          "canonicalForm": "Shaak Ti",
+          "list": []
+        },
+        {
+          "canonicalForm": "Grievous",
+          "list": []
+        },
+        {
+          "canonicalForm": "Tarfful",
+          "list": []
+        },
+        {
+          "canonicalForm": "Raymus Antilles",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sly Moore",
+          "list": []
+        },
+        {
+          "canonicalForm": "Tion Medon",
+          "list": []
+        },
+        {
+          "canonicalForm": "Finn",
+          "list": []
+        },
+        {
+          "canonicalForm": "Rey",
+          "list": []
+        },
+        {
+          "canonicalForm": "Poe Dameron",
+          "list": [
+            "Poe"
+          ]
+        },
+        {
+          "canonicalForm": "BB8",
+          "list": [
+            "BB-8"
+          ]
+        },
+        {
+          "canonicalForm": "Captain Phasma",
+          "list": []
+        },
+        {
+          "canonicalForm": "Padmé Amidala",
+          "list": [
+            "Padmé",
+            "Amidala"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "como é o r2-d2?",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "e aí meu amigo",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "e aí?",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "eaeh",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "em star wars quais as informações que você pode me comentar sobre um personagem?",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "fala brother",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "fala meu",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "gostaria de saber sobre um personagem",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "gostaria que você buscasse informações sobre um personagem",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "leia",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "me diga o que você sabe sobre um personagem de star wars",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "me fala do xubaca",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "me fale de um personagem",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "me fale sobre luke skywalker",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "oi",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "olá",
+      "intent": "Saudacao",
+      "entities": []
+    },
+    {
+      "text": "quais são as informações que você tem de um personagem?",
+      "intent": "BuscaPersonagem",
+      "entities": []
+    },
+    {
+      "text": "suco sabor laranja",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}

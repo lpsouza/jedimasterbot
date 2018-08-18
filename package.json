@@ -1,0 +1,23 @@
+{
+  "name": "jedi-master-bot",
+  "version": "1.0.0",
+  "description": "An advanced hello world using the Microsoft Bot Framework.",
+  "main": "app.js",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Luiz Pereira de Souza Filho",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "botbuilder-azure": "^3.0.4",
+    "restify": "^5.0.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "zip-folder": "^1.0.0"
+  }
+}
