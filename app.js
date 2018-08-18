@@ -15,7 +15,9 @@ var connector = new builder.ChatConnector({
 
 server.post('/api/messages', connector.listen());
 
+var inMemoryStorage = new builder.MemoryBotStorage();
 var bot = new builder.UniversalBot(connector);
+bot.set('storage', inMemoryStorage);
 
 var recognizer = new builder.LuisRecognizer(process.env.LuisUrl);
 bot.recognizer(recognizer);
